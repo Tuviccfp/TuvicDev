@@ -1,0 +1,17 @@
+#menu-home {
+    background-image:
+        linear-gradient(
+        transparent 0%, transparent 90%,
+        #121214 98%, #121214 100%
+        );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+    font-size: 20px;    
+    margin: 0px 15px 0px 15px;
+}
+#menu-home:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
