@@ -7,13 +7,13 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <>
+    <section style={{display: "flex", flexDirection: "column"}}>
         <Main />
-        <Menu />
         <Work />
         <Training />
         <Footer />
+        <Menu />
         <Socials />
-    </>
+    </section>
   );
 }

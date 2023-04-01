@@ -13,7 +13,6 @@ background-color: white;
 border-radius: 0px 0px 5px 5px;
 border-bottom: 2px solid lightgrey;
 padding: 5px;
-margin-top: -1085px;
 
 button {
     width: 50px;
